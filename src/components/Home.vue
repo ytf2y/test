@@ -13,11 +13,14 @@ export default {
     },
     data(){
         return {
-
+            list:[]//这个数组用来保存列表数据
         }
     },
     computed:{
-
+        total:function()
+        {
+            return 100*100;
+        }
     },
     methods:{
 
