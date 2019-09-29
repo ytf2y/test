@@ -29,7 +29,10 @@ export default {
 
     },
     mounted(){
-
+        //今天很郁闷, 写了三行代码,还报错了!!!!!!!
+        axios.get("/list").then((res)=>{
+            console.log(res.data);
+        })
     }
 }
 </script>
